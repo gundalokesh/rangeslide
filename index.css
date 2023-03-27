@@ -1,0 +1,91 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'PT Serif', sans-serif;
+   
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+
+}
+
+.slider-range{
+    width: 100%;
+}
+.slidecontainer{
+    position: absolute;
+    width: 80%;
+    bottom: 20%;
+    left:10%;
+    /* width: 400px; */
+   
+
+  
+    
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+}
+h1{
+    color: white;
+    font-size:4vw;
+    letter-spacing: 1.5px;
+   
+   
+}
+h4{
+    margin-top: 10px;
+    font-size: 1vw;
+    letter-spacing: 1.5px;
+    color: #333;
+    text-align: center;
+    
+}
+
+.slider-range{
+    height: 10px;
+    appearance: none;
+    border-radius: 0px;
+    background: #f5f6fa;
+   
+    outline: none;
+
+    /* overflow: hidden; */
+    margin-bottom: 20px;
+    
+
+}
+
+.slider-range::-webkit-slider-thumb{
+     -webkit-appearance: none; 
+  appearance: none; 
+  width: 32px; 
+  height: 38px; 
+  background: #fff; 
+  border-radius: 4px;
+  z-index: 2;
+  cursor: pointer;
+  position: relative;
+}
+  
+
+
+
